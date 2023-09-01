@@ -114,12 +114,12 @@ a{
 
     padding: 80px 40px;
 }
-.pods .column{
+.pods .column {
     background-color: brown;
     width: 30%;
 }
-.pods .row .column1{
-    width: 30%;
+.pods .row .box1{
+    /* width: 30%; */
     height: 300px;
     background-image: url(./Assets/image1.jpg);
     background-position: center;
@@ -127,8 +127,8 @@ a{
 
 }
 
-.pods .row .column2{
-    width: 30%;
+.pods .row .box2{
+    /* width: 30%; */
     height: 300px;
     background-image: url(./Assets/image2.jpg);
     background-position: center;
@@ -136,8 +136,8 @@ a{
 
 }
 
-.pods .row .column3{
-    width: 30%;
+.pods .row .box3{
+    /* width: 30%; */
     height: 300px;
     background-image: url(./Assets/image3.jpg);
     background-position: center;

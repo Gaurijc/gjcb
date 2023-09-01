@@ -1,7 +1,14 @@
 /* responsive css for tablate start */
-@media screen and (min-width: 769px) {
+@media screen and (max-width: 769px) {
 body{
-    background-color: red;
+}
+.pods .column{
+    width: 100%;
+    margin: 20px 0;
+}
+.pods .row{
+    /* display: none; */
+    flex-wrap: wrap;
 }
 }
 /* responsive css for tablate end */

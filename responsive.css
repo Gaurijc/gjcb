@@ -1,7 +1,11 @@
 /* responsive css for tablate start */
 @media screen and (max-width: 769px) {
-body{
+/* hero starts here  */
+.hero .column{
+    margin: 250px 0 0 0;
 }
+/* hero ends here  */
+/* pods starts here  */
 .pods .column{
     width: 100%;
     margin: 20px 0;
@@ -10,5 +14,27 @@ body{
     /* display: none; */
     flex-wrap: wrap;
 }
+/* pods endss here  */
+
 }
 /* responsive css for tablate end */
+/* responsive css for mobile start */
+
+@media screen and (max-width: 525px) {
+/* global css start  */
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size:24px ;
+}
+/* global css end  */
+.container{
+    padding: 30px 15px;
+}
+}
+
+/* responsive css for mobile end */

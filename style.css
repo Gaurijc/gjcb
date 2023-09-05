@@ -7,9 +7,9 @@
 h1{
     color: white;
     font-size: 50px;
-    margin: 30px 0;
+    margin: 15px 0;
     font-family: 'Playfair Display', serif;
-
+    text-align: center;
 }
 h2{
     color: black;
@@ -17,7 +17,15 @@ h2{
     margin: 0 0 20px;
     font-weight: 400;
     font-family: 'Playfair Display', serif;
+    text-align: center;
 
+}
+h3{
+    font-size: 30px;
+}
+
+.logo img{
+    width: 150px;
 }
 p{
     font-size: 16px;
@@ -64,6 +72,9 @@ a{
     text-decoration: none;
     color: none;
 }
+.container{
+    padding: 80px 40px;
+}
 /* global css ends here  */
 
 .navbar .top{
@@ -83,6 +94,7 @@ a{
     width: 50%;
     margin: 0 auto;
     padding: 15px 0;
+    /* background-color: #ff00006b; */
     
 }
 .navigation ul li{
@@ -101,8 +113,9 @@ a{
     background-size: cover;
 }
 .hero .column{
-    width: 50%;
+    /* width: 80%; */
     margin: 150px 0;
+    /* background-color: rgba(139, 21, 21, 0.397); */
     
 }
 .hero p{
@@ -112,7 +125,7 @@ a{
 /* pods starts here  */
 .pods{
 
-    padding: 80px 40px;
+    /* padding: 80px 40px; */
 }
 .pods .column {
     background-color: brown;
@@ -212,6 +225,23 @@ p span{
     color: red;
 }
 /* About starts here  */
+
+/* gallery start here  */ 
+.gallery .row {
+    flex-wrap: wrap;
+    text-align: center;
+}
+.gallery .bottom .column{
+    width: 23%;
+    /* border: 1px solid #FF0000; */
+    margin: 0 0 30px 0;
+}
+.gallery img{
+    width: 100%;
+    
+}
+
+/* gallery start here  */ 
 
 
 /* footer starts here  */

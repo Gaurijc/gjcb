@@ -75,6 +75,9 @@ a{
 .container{
     padding: 80px 40px;
 }
+img{
+    width: 100%;
+}
 /* global css ends here  */
 
 .navbar .top{

@@ -15,7 +15,8 @@
     flex-wrap: wrap;
 }
 /* pods endss here  */
-
+.gallery .bottom .column{
+    width: 48%;
 }
 /* responsive css for tablate end */
 /* responsive css for mobile start */
@@ -31,10 +32,27 @@ h2{
 h3{
     font-size:24px ;
 }
-/* global css end  */
 .container{
     padding: 30px 15px;
 }
+/* global css end  */
+/* navbar starts here */
+.navbar .top{
+    display: none;
 }
+.navbar .navigation{
+    display: none;
+}
+/* navbar ends here */
+
+/* gallery starts here  */
+
+.gallery .bottom .column{
+    width: 100%;
+}
+/* gallery ends here  */
+
+}
+
 
 /* responsive css for mobile end */

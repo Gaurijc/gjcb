@@ -35,11 +35,12 @@ p{
 
 }
 button{
-    /* width: 200px; */
+    min-width: 200px;
     padding: 16px;
     border: none;
     outline: none;
-    background-color: white;
+    background-color: rgba(255,255,255,.7);
+    color: black;
     margin: 20px 0  ;
 } 
 .ghost-btn{
@@ -177,7 +178,6 @@ img{
 }
 .blog img{
     width: 100%;
-    
 }
 h2 span{
     font-weight: 900;
@@ -189,7 +189,6 @@ p span{
 .blog img{
     margin:20px 0  ;
 }
-
 /* block section starts here  */
 /* socialmedia starts here  */
 .socialmedia{

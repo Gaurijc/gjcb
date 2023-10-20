@@ -18,6 +18,17 @@
 .gallery .bottom .column{
     width: 48%;
 }
+/* articles page css start */
+.blogmain .container .row{
+    flex-direction: column;
+}
+.blogmain .container .row .column{
+    width: 100%;
+}
+
+
+/* articles page css end */
+
 /* responsive css for tablate end */
 /* responsive css for mobile start */
 

@@ -1,3 +1,15 @@
+.blogmain .container{
+    width: 80%;
+    margin: 0 auto;
+}
 h1{
     color: black;
+    text-align: left;
+}
+.blogmain .container .row{
+    display: flex;
+    justify-content: space-between;
+}
+.blogmain .container .row .column{
+    width: 48%;
 }

@@ -1,3 +1,40 @@
 .hero{
     background-image: url(./Assets/image2.jpg);
 }
+.container.list{
+    width: 80%;
+    margin: 0 auto;
+}
+.list .row {
+    display: flex;
+    justify-content: space-between;
+
+}
+.list .row .column{
+    width: 30%;
+}
+.card{
+    width: 100%;
+    padding: 15px 15px 30px 15px;
+    box-shadow: 10px 10px 10px rgb(142, 139, 139);
+}
+.profileBox{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.profileBox img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+.text{
+    margin: 10px 0;
+}
+.statics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

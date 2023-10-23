@@ -102,13 +102,23 @@ img{
 
 }
 .navbar span{
-    width: 3000px;
-    height: 500px;
+    width: 30px;
+    height: 5px;
     color: #FF0000;
     background-color: black;
+    display: block;
+    margin:10px 0;
 }
 .mobilemenu{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
+    text-align: right ;
+    display: none;
+}
+.mobilemenu .column{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    /* flex-direction: column; */
 }
 .navigation{
     width: 50%;

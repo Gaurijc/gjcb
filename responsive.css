@@ -25,7 +25,15 @@
 .blogmain .container .row .column{
     width: 100%;
 }
+.list .cardrow .column{
+    width: 45%;
+}
 
+
+
+.card{
+    width: ;
+}
 
 /* articles page css end */
 
@@ -62,6 +70,10 @@ h3{
     width: 100%;
 }
 /* gallery ends here  */
+
+.list .cardrow .column{
+    width: 100%;
+}
 
 }
 

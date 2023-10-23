@@ -21,7 +21,7 @@ h2{
 
 }
 h3{
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .logo img{
@@ -79,6 +79,13 @@ a{
 img{
     width: 100%;
 }
+.titlerow{
+    width: 100%;
+    text-align: center;
+}
+.titlerow .column {
+    width: 100%;
+}
 /* global css ends here  */
 
 .navbar .top{
@@ -93,6 +100,15 @@ img{
 .navbar .top ul li a{
     color: white;
 
+}
+.navbar span{
+    width: 3000px;
+    height: 500px;
+    color: #FF0000;
+    background-color: black;
+}
+.mobilemenu{
+    background-color: chartreuse;
 }
 .navigation{
     width: 50%;

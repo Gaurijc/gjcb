@@ -7,16 +7,18 @@
 }
 .list .row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
 }
-.list .row .column{
+.list .cardrow .column{
     width: 30%;
 }
 .card{
     width: 100%;
     padding: 15px 15px 30px 15px;
     box-shadow: 10px 10px 10px rgb(142, 139, 139);
+    border: 1px solid rgba(0, 0, 0,.1);
 }
 .profileBox{
     display: flex;
